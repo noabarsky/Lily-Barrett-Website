@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8">
+<title>Lily Barrett</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="img/icon.jpg">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_3FeEqkkEb0GDP4HCIvK4Y");
+   })();
+</script>
+</head>
+<body>
+  <div id="menu-bar" class="menu-bar">
+      <a  href="#bio">About</a>
+      <a href="#contactme">Contact</a>
+      <a href="#followme">Photography</a>
+      <a href="#email">Email</a>
+  </div>
+<div class="homepage">
+  <img src="img/profilepicture.jpg">
+</div>
+
+<div id="bio" class="bio">
+  <header>About Me</header>
+  <p>Lily is currently pursuing a Bachelor’s degree in Nutrition and Dietetics
+    at the Western University. She enjoys creating in forms of
+    photography, cooking, and writing. Lily is passionate about holistic health
+    and dispelling myths surrounding nutrition and weight. Her aim in any
+    field is to create a positive, flexible, and accepting environment that
+    strives for constant improvement. Feel free to contact her if you are
+    interested in learning more or working with her.</p>
+</div>
+<div id="contactme" class="contactme">
+  <header>Get In Touch</header>
+<ul>
+  <li>Linkedin:</li>
+  <li><a href="https://www.linkedin.com/in/lily-barrett-07392a139/">&#47;lily-barrett</a></li>
+</ul>
+<ul>
+  <li>Resume:</li>
+  <li><a href="Lily_Barrett_resume.pdf">Download here</a></li>
+</ul>
+</div>
+<div id="followme" class="followme">
+  <header>Latest Instagram Posts</header>
+  <a href="https://www.instagram.com/lilymargarett/"><p>@lilymargarett</p></a>
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/347356" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+
+</div>
+<div id="email" class="email">
+  <header>Email Me</header>
+  <div id="email-confirm" class="email-confirm">Email sent. Thank you!</div>
+  <form>
+     Email:<br>
+    <input id="email-email" type="email" class="text">
+    <br>
+
+
+    <div class="padding">Name:<br></div>
+    <input id="email-name" type="text" class="text">
+    <br>
+
+
+    <div class="padding">Message:<br></div>
+    <textarea id="email-message" rows="11" cols="45" name="comment" form="usrform">
+    </textarea>
+
+
+    <div class="submit"><br><input id="submit" type="submit" value="Submit" onsubmit="sendEmail()"></div>
+  </form>
+
+  <script src="contact-form.js"></script>
+</div>
+<footer>&copy; 2017 Lily Barrett. Design by <a href="mailto:noabarsky123@gmail.com">Noa</a>.</footer>
+</body>
+</html>
